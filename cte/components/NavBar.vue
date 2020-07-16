@@ -19,6 +19,8 @@ header
       .navbar-menu#navmain(:class="{ 'is-active': menuOpen }")
         router-link.navbar-item(v-if='user', to='/dashboard') My Courses
         a.navbar-item(href='/catalog') Catalog
+        a.navbar-item(href='/team') Team
+        a.navbar-item(href='/faq') FAQ
         router-link.navbar-item(to='/admin', v-if='user && user.role == "admin"') Admin
         a.navbar-item(v-if="user", @click='logout') Sign Out
         a.navbar-item(v-else, href='/SignUp') Sign In
