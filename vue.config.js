@@ -13,7 +13,7 @@ module.exports = {
   css: {
     loaderOptions: {
       sass: {
-        prependData: `@import "~noodle-flavour/styles/_vars.scss";`
+        prependData: `@import "~noodle-flavour/styles/include/_vars.scss";`
       }
     }
   }

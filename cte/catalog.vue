@@ -11,7 +11,7 @@ div.container
         .card-body
           p {{course.subtitle}}
         .card-footer
-          a.regBtn(:href="'/courses/' + course._id + '/view/'")
+          a.regBtn(:href="'/course/' + course._id")
             button.secondary View
 </template>
 

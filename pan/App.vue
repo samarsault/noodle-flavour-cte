@@ -24,5 +24,5 @@ export default {
 </script>>
 <style lang="scss">
 // Basic Styles
-@import '~noodle-flavour/base'
+@import '~noodle-flavour/styles/base'
 </style>

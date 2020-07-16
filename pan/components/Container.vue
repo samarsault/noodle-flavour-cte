@@ -17,9 +17,19 @@ export default {
     properties() {
       return {
         user: UserData,
-        courses: this.access?.includes('courses') ? CoursesData : null
+        courses: this.access?.includes('courses') ? CoursesData : null,
+        course: this.getCourse()
       };
     },
   },
+  methods: {
+    getCourse() {
+      const _id = this.$route.params.course_id; 
+      if (_id && this.access?.includes('course')) {
+        return CoursesData.find(x => x._id == _id)
+      }
+      return null;
+    }
+  }
 };
 </script>
