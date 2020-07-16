@@ -5,7 +5,7 @@ div
       h1#masthead Fostering Technical Culture
       h4 Since 2012
       p We conduct courses,  workshops, host technical competitions, offer financial assistance to technical clubs and projects and organise academic help sessions
-      a(href="/catalog")
+      a(href="/courses")
         button.primary Explore
 
   section.white

@@ -1,4 +1,4 @@
-# flavour
+# theme
 This folder houses custom pages for the system, which can be modified to represent a brand or additional functionality.
 
 ## How To

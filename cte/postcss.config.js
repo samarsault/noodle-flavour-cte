@@ -2,4 +2,4 @@
 // Required for styles in theme
 // components/views
 //
-module.exports = {};
+module.exports = {}
